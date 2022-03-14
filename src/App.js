@@ -7,18 +7,8 @@ const App = () => {
   return (
     <div>
       <div className="Wrapper">
-        <nav className="navbar" role="navigation" aria-label="main navigation">
-          <div className="navbar-brand">
-            <a className="navbar-item" href="https://bulma.io">
-              <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
-            </a>
 
-            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
+        <nav className="navbar" role="navigation" aria-label="main navigation">
 
           <div id="navbarBasicExample" class="navbar-menu">
             <div className="navbar-start">
@@ -58,6 +48,9 @@ const App = () => {
             </div>
           </div>
         </nav>
+
+   
+
         <div className='Card'>
           <InfoCard name="Asma" age="21">
           </InfoCard>
@@ -68,6 +61,7 @@ const App = () => {
           <InfoCard name="rahma" age="21">
           </InfoCard>
         </div>
+
       </div>
     </div>
 
