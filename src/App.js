@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import InfoCard from './components/InfoCard';
+import Accordion from './components/Accordion';
 import 'bulma/css/bulma.min.css';
 
 const App = () => {
@@ -48,6 +49,17 @@ const App = () => {
             </div>
           </div>
         </nav>
+
+        <Accordion />
+
+
+
+        
+
+
+
+
+
 
    
 
