@@ -1,11 +1,12 @@
 import React from "react";
-const addText = () =>{
-  return(
-    <div>
-      alert("why did you clicked??!!!!!")
-    </div>
-    )
-}
+
+// const addText = () =>{
+//   return(
+//     <div>
+//       alert("why did you clicked??!!!!!")
+//     </div>
+//     )
+// }
 
 const InfoCard = (props) => {
   return(
@@ -19,7 +20,7 @@ const InfoCard = (props) => {
                 <p>Age: {props.age}</p>
               </div>
               <div className="buttons">
-                <button className="button is-primary" onClick={addText}>
+                <button>
                   Learn More
                 </button>
               </div>
