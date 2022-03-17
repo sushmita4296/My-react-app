@@ -18,7 +18,7 @@ toggleCardState(e) {
   this.setState({
     "expanded": !this.state.expanded
   });
-}
+} 
 
 
 }
