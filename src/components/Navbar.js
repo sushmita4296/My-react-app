@@ -53,10 +53,10 @@ const Navbar = () => {
             <div class="navbar-item">
               <div class="buttons">
                 <a class="button is-primary">
-                  <strong>Sign up</strong>
+                  <strong><Link to="/signUp">Sign Up</Link></strong>
                 </a>
                 <a class="button is-light">
-                  <Link to="/login">Log In</Link>
+                  <strong><Link to="/login">Log In</Link></strong>
                 </a>
               </div>
             </div>
