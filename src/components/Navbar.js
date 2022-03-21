@@ -28,11 +28,11 @@ const Navbar = () => {
             </a>
 
             <a class="navbar-item">
-            <Link to="/about">About Us</Link>
+              <Link to="/about">About Us</Link>
             </a>
 
             <a class="navbar-item">
-            <Link to="/contact">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </a>
 
             {/* Dropdown for nav */}
@@ -55,7 +55,9 @@ const Navbar = () => {
                 <a class="button is-primary">
                   <strong>Sign up</strong>
                 </a>
-                <a class="button is-light">Log in</a>
+                <a class="button is-light">
+                  <Link to="/login">Log In</Link>
+                </a>
               </div>
             </div>
           </div>

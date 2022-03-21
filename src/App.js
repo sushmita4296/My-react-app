@@ -5,13 +5,13 @@ import './App.css';
 
 //importing components*****
 import InfoCard from './components/InfoCard';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Navbar from './components/Navbar';
+import Contact from './components/Contact';
+import NoPage from './components/NoPage';
 import Dashboard from './components/Dashboard';
 import Login from './components/Login';
-import Header from './components/Header';
-import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -23,7 +23,8 @@ const App = () => {
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
-              {/* <Route path="*" element={<NoPage />} /> */}
+              <Route path="login" element={<Login />} />
+              <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>
 
