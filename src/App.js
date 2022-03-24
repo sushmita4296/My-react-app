@@ -30,21 +30,6 @@ const App = () => {
               <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>
-
-
-              {/* <div className="App">
-                <div className="content">
-                  <switch>
-                    <Route path="/">
-                      <Home />
-                    </Route>
-                    
-                    <Route path="/infoCard">
-                      <InfoCard />
-                    </Route>
-                  </switch> 
-                </div>  
-              </div> */}
           </Router>
         </div>
 

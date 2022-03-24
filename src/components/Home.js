@@ -1,4 +1,5 @@
 import React from "react"
+import InfoCard from "./InfoCard";
 
 function Home() {
   return(
@@ -6,14 +7,14 @@ function Home() {
 
       <h1>Home</h1>
       
-      {/* <InfoCard name="Asma" age="21">
+      <InfoCard name="Asma" age="21">
       </InfoCard>
       <InfoCard name="Bushma" age="21">
       </InfoCard>
       <InfoCard name="Fahma" age="21">
       </InfoCard>
       <InfoCard name="rahma" age="21">
-      </InfoCard> */}
+      </InfoCard>
     </div>
   )
 } 
