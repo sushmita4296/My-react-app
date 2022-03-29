@@ -15,9 +15,7 @@ const Login = () => {
   }
   return(
     <div
-      className="container has-text-centered box"
-      style={{ maxWidth: "300px", marginTop: "70px" }}
-    >
+      className="container has-text-centered box form-style">
       <form>
      
         <div className="field">
